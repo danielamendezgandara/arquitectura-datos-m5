@@ -41,7 +41,7 @@ data_arquitectura_moderna/
 ├── run_proyecto.bat
 └── README.md
 
-```plaintext
+```
 
 ---
 
