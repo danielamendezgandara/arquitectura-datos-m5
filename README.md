@@ -7,6 +7,7 @@ Este proyecto implementa una **arquitectura de datos moderna** que procesa infor
 
 ## 🗂️ Estructura del Proyecto
 
+```plaintext
 data_arquitectura_moderna/
 │
 ├── datalake/
@@ -30,7 +31,7 @@ data_arquitectura_moderna/
 ├── etl/
 │   ├── diagnostico_*.py
 │   ├── transformacion.py
-│   └── limpia_*.py
+│   ├── limpia_*.py
 │   └── ingesta.py 
 │
 ├── scripts/
@@ -39,7 +40,6 @@ data_arquitectura_moderna/
 │
 ├── run_proyecto.bat
 └── README.md
-
 
 ---
 
