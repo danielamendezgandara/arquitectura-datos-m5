@@ -1,0 +1,5 @@
+Campo,Completitud (%),Validez (%),Duplicados
+id_producto,100.0,100.0,0
+nombre_producto,100.0,100.0,0
+categoria,100.0,100.0,6
+proveedor,100.0,100.0,7

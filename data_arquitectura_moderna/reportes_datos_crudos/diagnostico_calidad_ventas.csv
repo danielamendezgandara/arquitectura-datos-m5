@@ -1,0 +1,7 @@
+Campo,Completitud (%),Validez (%),Duplicados
+id_venta,100.0,100.0,0
+id_producto,100.0,100.0,90
+id_sucursal,100.0,100.0,95
+fecha,100.0,100.0,0
+cantidad,100.0,100.0,81
+monto,100.0,100.0,0

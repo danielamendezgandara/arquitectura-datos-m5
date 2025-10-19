@@ -1,0 +1,11 @@
+id_producto,nombre_producto,categoria,proveedor
+1,Producto 1,Tecnología,Proveedor C
+2,Producto 2,Ropa,Proveedor B
+3,Producto 3,Electrodoméstico,Proveedor C
+4,Producto 4,Electrodoméstico,Proveedor B
+5,Producto 5,Alimentos,Proveedor A
+6,Producto 6,Tecnología,Proveedor A
+7,Producto 7,Electrodoméstico,Proveedor B
+8,Producto 8,Alimentos,Proveedor C
+9,Producto 9,Tecnología,Proveedor B
+10,Producto 10,Alimentos,Proveedor A

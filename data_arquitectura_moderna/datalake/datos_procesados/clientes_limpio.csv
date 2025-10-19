@@ -1,0 +1,51 @@
+id_cliente,nombre,edad,ubicacion,categoria
+1,Cliente 1,27,Valparaíso,Inactivo
+2,Cliente 2,65,Antofagasta,Inactivo
+3,Cliente 3,49,Concepción,Nuevo
+4,Cliente 4,36,La Serena,Frecuente
+5,Cliente 5,32,Valparaíso,Inactivo
+6,Cliente 6,68,Valparaíso,Frecuente
+7,Cliente 7,36,Santiago,Frecuente
+8,Cliente 8,67,La Serena,Nuevo
+9,Cliente 9,67,Concepción,Nuevo
+10,Cliente 10,38,Santiago,Nuevo
+11,Cliente 11,52,Antofagasta,Nuevo
+12,Cliente 12,28,Antofagasta,Nuevo
+13,Cliente 13,67,La Serena,Inactivo
+14,Cliente 14,31,Valparaíso,Inactivo
+15,Cliente 15,49,Santiago,Nuevo
+16,Cliente 16,53,Santiago,Inactivo
+17,Cliente 17,68,Santiago,Nuevo
+18,Cliente 18,35,Antofagasta,Inactivo
+19,Cliente 19,43,Valparaíso,Inactivo
+20,Cliente 20,60,Valparaíso,Nuevo
+21,Cliente 21,59,Antofagasta,Nuevo
+22,Cliente 22,66,Valparaíso,Inactivo
+23,Cliente 23,38,Santiago,Nuevo
+24,Cliente 24,59,La Serena,Frecuente
+25,Cliente 25,36,La Serena,Nuevo
+26,Cliente 26,35,Concepción,Frecuente
+27,Cliente 27,34,La Serena,Nuevo
+28,Cliente 28,42,Antofagasta,Frecuente
+29,Cliente 29,62,Antofagasta,Frecuente
+30,Cliente 30,21,Santiago,Inactivo
+31,Cliente 31,39,Concepción,Frecuente
+32,Cliente 32,44,La Serena,Inactivo
+33,Cliente 33,65,Concepción,Inactivo
+34,Cliente 34,61,Antofagasta,Inactivo
+35,Cliente 35,47,Valparaíso,Inactivo
+36,Cliente 36,64,Santiago,Frecuente
+37,Cliente 37,31,Antofagasta,Frecuente
+38,Cliente 38,32,Valparaíso,Nuevo
+39,Cliente 39,37,Valparaíso,Frecuente
+40,Cliente 40,38,Concepción,Nuevo
+41,Cliente 41,37,Santiago,Frecuente
+42,Cliente 42,19,La Serena,Nuevo
+43,Cliente 43,29,Concepción,Inactivo
+44,Cliente 44,38,Santiago,Inactivo
+45,Cliente 45,41,La Serena,Nuevo
+46,Cliente 46,49,La Serena,Inactivo
+47,Cliente 47,27,Antofagasta,Nuevo
+48,Cliente 48,44,Santiago,Inactivo
+49,Cliente 49,36,Concepción,Frecuente
+50,Cliente 50,47,Concepción,Frecuente

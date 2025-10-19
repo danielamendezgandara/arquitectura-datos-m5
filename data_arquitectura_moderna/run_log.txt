@@ -1,0 +1,826 @@
+Dataframe
+   id_venta  id_producto  id_sucursal       fecha  cantidad  monto
+0         1            9            3  2023-01-01        12  22557
+1         2            2            1  2023-01-02        10  24278
+2         3            6            4  2023-01-03        17  39119
+3         4            6            4  2023-01-04         7  17835
+4         5            5            2  2023-01-05         7  49733
+5         6            6            4  2023-01-06        17   7426
+6         7            5            3  2023-01-07        16  10024
+7         8            7            3  2023-01-08         7  20807
+8         9            2            2  2023-01-09         2  43804
+
+Diagnóstico ventas.csv
+      Campo Completitud (%) Validez (%)  Duplicados
+   id_venta            100%        100%           0
+id_producto            100%        100%          90
+id_sucursal            100%        100%          95
+      fecha            100%        100%           0
+   cantidad            100%        100%          81
+      monto            100%        100%           0
+
+Duplicados de filas completas: 0
+
+Campo con más problemas: id_venta
+Dimensión afectada: Integridad/Unicidad de claves
+Impacto potencial: Ventas duplicadas o inválidas distorsionan todas las métrricas.
+Dataframe
+   id_cliente     nombre  edad    ubicacion  categoria
+0           1  Cliente 1    27   Valparaíso   Inactivo
+1           2  Cliente 2    65  Antofagasta   Inactivo
+2           3  Cliente 3    49   Concepción      Nuevo
+3           4  Cliente 4    36    La Serena  Frecuente
+4           5  Cliente 5    32   Valparaíso   Inactivo
+5           6  Cliente 6    68   Valparaíso  Frecuente
+6           7  Cliente 7    36     Santiago  Frecuente
+7           8  Cliente 8    67    La Serena      Nuevo
+8           9  Cliente 9    67   Concepción      Nuevo
+
+Resumen de calidad de datos:
+     Campo Completitud (%) Validez (%)  Duplicados
+    nombre            100%        100%           0
+id_cliente            100%        100%           0
+
+Campo con más problemas: nombre
+Dimensión de calidad más comprometida: Completitud/Consistencia
+Posibles consecuencias: Dificultad para personalizar comunicaciones y segmentar correctamente.
+
+Diagnóstico productos.csv
+          Campo Completitud (%) Validez (%)  Duplicados
+    id_producto            100%        100%           0
+nombre_producto            100%        100%           0
+      categoria            100%        100%           6
+      proveedor            100%        100%           7
+
+Duplicados de filas completas: 0
+
+Campo con más problemas: id_producto
+Dimensión afectada: Integridad/Unicidad de claves
+Impacto potencial: IDs inválidos o duplicados afectan joins y el DW.
+Dataframe
+   id_venta  id_producto  id_sucursal       fecha  cantidad    monto
+0         1            9            3  2023-01-01        12  22557.0
+1         2            2            1  2023-01-02        10  24278.0
+2         3            6            4  2023-01-03        17  39119.0
+3         4            6            4  2023-01-04         7  17835.0
+4         5            5            2  2023-01-05         7  49733.0
+5         6            6            4  2023-01-06        17   7426.0
+6         7            5            3  2023-01-07        16  10024.0
+7         8            7            3  2023-01-08         7  20807.0
+8         9            2            2  2023-01-09         2  43804.0
+
+Diagnóstico ventas.csv
+      Campo Completitud (%) Validez (%)  Duplicados
+   id_venta            100%        100%           0
+id_producto            100%        100%          90
+id_sucursal            100%        100%          95
+      fecha            100%        100%           0
+   cantidad            100%        100%          81
+      monto            100%        100%           0
+
+Duplicados de filas completas: 0
+
+Campo con más problemas: id_venta
+Dimensión afectada: Integridad/Unicidad de claves
+Impacto potencial: Ventas duplicadas o inválidas distorsionan todas las métrricas.
+Dataframe
+   id_cliente     nombre  edad    ubicacion  categoria
+0           1  Cliente 1    27   Valparaíso   Inactivo
+1           2  Cliente 2    65  Antofagasta   Inactivo
+2           3  Cliente 3    49   Concepción      Nuevo
+3           4  Cliente 4    36    La Serena  Frecuente
+4           5  Cliente 5    32   Valparaíso   Inactivo
+5           6  Cliente 6    68   Valparaíso  Frecuente
+6           7  Cliente 7    36     Santiago  Frecuente
+7           8  Cliente 8    67    La Serena      Nuevo
+8           9  Cliente 9    67   Concepción      Nuevo
+
+Resumen de calidad de datos:
+     Campo Completitud (%) Validez (%)  Duplicados
+    nombre            100%        100%           0
+id_cliente            100%        100%           0
+
+Campo con más problemas: nombre
+Dimensión de calidad más comprometida: Completitud/Consistencia
+Posibles consecuencias: Dificultad para personalizar comunicaciones y segmentar correctamente.
+
+Diagnóstico productos.csv
+          Campo Completitud (%) Validez (%)  Duplicados
+    id_producto            100%        100%           0
+nombre_producto            100%        100%           0
+      categoria            100%        100%           6
+      proveedor            100%        100%           7
+
+Duplicados de filas completas: 0
+
+Campo con más problemas: id_producto
+Dimensión afectada: Integridad/Unicidad de claves
+Impacto potencial: IDs inválidos o duplicados afectan joins y el DW.
+Dataframe
+   id_venta  id_producto  id_sucursal       fecha  cantidad  monto
+0         1            9            3  2023-01-01        12  22557
+1         2            2            1  2023-01-02        10  24278
+2         3            6            4  2023-01-03        17  39119
+3         4            6            4  2023-01-04         7  17835
+4         5            5            2  2023-01-05         7  49733
+5         6            6            4  2023-01-06        17   7426
+6         7            5            3  2023-01-07        16  10024
+7         8            7            3  2023-01-08         7  20807
+8         9            2            2  2023-01-09         2  43804
+
+Diagnóstico ventas.csv
+      Campo Completitud (%) Validez (%)  Duplicados
+   id_venta            100%        100%           0
+id_producto            100%        100%          90
+id_sucursal            100%        100%          95
+      fecha            100%        100%           0
+   cantidad            100%        100%          81
+      monto            100%        100%           0
+
+Duplicados de filas completas: 0
+
+Campo con más problemas: id_venta
+Dimensión afectada: Integridad/Unicidad de claves
+Impacto potencial: Ventas duplicadas o inválidas distorsionan todas las métrricas.
+Dataframe
+   id_cliente     nombre  edad    ubicacion  categoria
+0           1  Cliente 1    27   Valparaíso   Inactivo
+1           2  Cliente 2    65  Antofagasta   Inactivo
+2           3  Cliente 3    49   Concepción      Nuevo
+3           4  Cliente 4    36    La Serena  Frecuente
+4           5  Cliente 5    32   Valparaíso   Inactivo
+5           6  Cliente 6    68   Valparaíso  Frecuente
+6           7  Cliente 7    36     Santiago  Frecuente
+7           8  Cliente 8    67    La Serena      Nuevo
+8           9  Cliente 9    67   Concepción      Nuevo
+
+Resumen de calidad de datos:
+     Campo Completitud (%) Validez (%)  Duplicados
+    nombre            100%        100%           0
+id_cliente            100%        100%           0
+
+Campo con más problemas: nombre
+Dimensión de calidad más comprometida: Completitud/Consistencia
+Posibles consecuencias: Dificultad para personalizar comunicaciones y segmentar correctamente.
+
+Diagnóstico productos.csv
+          Campo Completitud (%) Validez (%)  Duplicados
+    id_producto            100%        100%           0
+nombre_producto            100%        100%           0
+      categoria            100%        100%           6
+      proveedor            100%        100%           7
+
+Duplicados de filas completas: 0
+
+Campo con más problemas: id_producto
+Dimensión afectada: Integridad/Unicidad de claves
+Impacto potencial: IDs inválidos o duplicados afectan joins y el DW.
+Dataframe
+   id_venta  id_producto  id_sucursal       fecha  cantidad    monto
+0         1            9            3  2023-01-01        12  22557.0
+1         2            2            1  2023-01-02        10  24278.0
+2         3            6            4  2023-01-03        17  39119.0
+3         4            6            4  2023-01-04         7  17835.0
+4         5            5            2  2023-01-05         7  49733.0
+5         6            6            4  2023-01-06        17   7426.0
+6         7            5            3  2023-01-07        16  10024.0
+7         8            7            3  2023-01-08         7  20807.0
+8         9            2            2  2023-01-09         2  43804.0
+
+Diagnóstico ventas.csv
+      Campo Completitud (%) Validez (%)  Duplicados
+   id_venta            100%        100%           0
+id_producto            100%        100%          90
+id_sucursal            100%        100%          95
+      fecha            100%        100%           0
+   cantidad            100%        100%          81
+      monto            100%        100%           0
+
+Duplicados de filas completas: 0
+
+Campo con más problemas: id_venta
+Dimensión afectada: Integridad/Unicidad de claves
+Impacto potencial: Ventas duplicadas o inválidas distorsionan todas las métrricas.
+Dataframe
+   id_cliente     nombre  edad    ubicacion  categoria
+0           1  Cliente 1    27   Valparaíso   Inactivo
+1           2  Cliente 2    65  Antofagasta   Inactivo
+2           3  Cliente 3    49   Concepción      Nuevo
+3           4  Cliente 4    36    La Serena  Frecuente
+4           5  Cliente 5    32   Valparaíso   Inactivo
+5           6  Cliente 6    68   Valparaíso  Frecuente
+6           7  Cliente 7    36     Santiago  Frecuente
+7           8  Cliente 8    67    La Serena      Nuevo
+8           9  Cliente 9    67   Concepción      Nuevo
+
+Resumen de calidad de datos:
+     Campo Completitud (%) Validez (%)  Duplicados
+    nombre            100%        100%           0
+id_cliente            100%        100%           0
+
+Campo con más problemas: nombre
+Dimensión de calidad más comprometida: Completitud/Consistencia
+Posibles consecuencias: Dificultad para personalizar comunicaciones y segmentar correctamente.
+
+Diagnóstico productos.csv
+          Campo Completitud (%) Validez (%)  Duplicados
+    id_producto            100%        100%           0
+nombre_producto            100%        100%           0
+      categoria            100%        100%           6
+      proveedor            100%        100%           7
+
+Duplicados de filas completas: 0
+
+Campo con más problemas: id_producto
+Dimensión afectada: Integridad/Unicidad de claves
+Impacto potencial: IDs inválidos o duplicados afectan joins y el DW.
+Dataframe
+   id_venta  id_producto  id_sucursal       fecha  cantidad  monto
+0         1            9            3  2023-01-01        12  22557
+1         2            2            1  2023-01-02        10  24278
+2         3            6            4  2023-01-03        17  39119
+3         4            6            4  2023-01-04         7  17835
+4         5            5            2  2023-01-05         7  49733
+5         6            6            4  2023-01-06        17   7426
+6         7            5            3  2023-01-07        16  10024
+7         8            7            3  2023-01-08         7  20807
+8         9            2            2  2023-01-09         2  43804
+
+Diagnóstico ventas.csv
+      Campo Completitud (%) Validez (%)  Duplicados
+   id_venta            100%        100%           0
+id_producto            100%        100%          90
+id_sucursal            100%        100%          95
+      fecha            100%        100%           0
+   cantidad            100%        100%          81
+      monto            100%        100%           0
+
+Duplicados de filas completas: 0
+
+Campo con más problemas: id_venta
+Dimensión afectada: Integridad/Unicidad de claves
+Impacto potencial: Ventas duplicadas o inválidas distorsionan todas las métrricas.
+Dataframe
+   id_cliente     nombre  edad    ubicacion  categoria
+0           1  Cliente 1    27   Valparaíso   Inactivo
+1           2  Cliente 2    65  Antofagasta   Inactivo
+2           3  Cliente 3    49   Concepción      Nuevo
+3           4  Cliente 4    36    La Serena  Frecuente
+4           5  Cliente 5    32   Valparaíso   Inactivo
+5           6  Cliente 6    68   Valparaíso  Frecuente
+6           7  Cliente 7    36     Santiago  Frecuente
+7           8  Cliente 8    67    La Serena      Nuevo
+8           9  Cliente 9    67   Concepción      Nuevo
+
+Resumen de calidad de datos:
+     Campo Completitud (%) Validez (%)  Duplicados
+    nombre            100%        100%           0
+id_cliente            100%        100%           0
+
+Campo con más problemas: nombre
+Dimensión de calidad más comprometida: Completitud/Consistencia
+Posibles consecuencias: Dificultad para personalizar comunicaciones y segmentar correctamente.
+
+Diagnóstico productos.csv
+          Campo Completitud (%) Validez (%)  Duplicados
+    id_producto            100%        100%           0
+nombre_producto            100%        100%           0
+      categoria            100%        100%           6
+      proveedor            100%        100%           7
+
+Duplicados de filas completas: 0
+
+Campo con más problemas: id_producto
+Dimensión afectada: Integridad/Unicidad de claves
+Impacto potencial: IDs inválidos o duplicados afectan joins y el DW.
+Dataframe
+   id_venta  id_producto  id_sucursal       fecha  cantidad    monto
+0         1            9            3  2023-01-01        12  22557.0
+1         2            2            1  2023-01-02        10  24278.0
+2         3            6            4  2023-01-03        17  39119.0
+3         4            6            4  2023-01-04         7  17835.0
+4         5            5            2  2023-01-05         7  49733.0
+5         6            6            4  2023-01-06        17   7426.0
+6         7            5            3  2023-01-07        16  10024.0
+7         8            7            3  2023-01-08         7  20807.0
+8         9            2            2  2023-01-09         2  43804.0
+
+Diagnóstico ventas.csv
+      Campo Completitud (%) Validez (%)  Duplicados
+   id_venta            100%        100%           0
+id_producto            100%        100%          90
+id_sucursal            100%        100%          95
+      fecha            100%        100%           0
+   cantidad            100%        100%          81
+      monto            100%        100%           0
+
+Duplicados de filas completas: 0
+
+Campo con más problemas: id_venta
+Dimensión afectada: Integridad/Unicidad de claves
+Impacto potencial: Ventas duplicadas o inválidas distorsionan todas las métrricas.
+Dataframe
+   id_cliente     nombre  edad    ubicacion  categoria
+0           1  Cliente 1    27   Valparaíso   Inactivo
+1           2  Cliente 2    65  Antofagasta   Inactivo
+2           3  Cliente 3    49   Concepción      Nuevo
+3           4  Cliente 4    36    La Serena  Frecuente
+4           5  Cliente 5    32   Valparaíso   Inactivo
+5           6  Cliente 6    68   Valparaíso  Frecuente
+6           7  Cliente 7    36     Santiago  Frecuente
+7           8  Cliente 8    67    La Serena      Nuevo
+8           9  Cliente 9    67   Concepción      Nuevo
+
+Resumen de calidad de datos:
+     Campo Completitud (%) Validez (%)  Duplicados
+    nombre            100%        100%           0
+id_cliente            100%        100%           0
+
+Campo con más problemas: nombre
+Dimensión de calidad más comprometida: Completitud/Consistencia
+Posibles consecuencias: Dificultad para personalizar comunicaciones y segmentar correctamente.
+
+Diagnóstico productos.csv
+          Campo Completitud (%) Validez (%)  Duplicados
+    id_producto            100%        100%           0
+nombre_producto            100%        100%           0
+      categoria            100%        100%           6
+      proveedor            100%        100%           7
+
+Duplicados de filas completas: 0
+
+Campo con más problemas: id_producto
+Dimensión afectada: Integridad/Unicidad de claves
+Impacto potencial: IDs inválidos o duplicados afectan joins y el DW.
+Dataframe
+   id_venta  id_producto  id_sucursal       fecha  cantidad  monto
+0         1            9            3  2023-01-01        12  22557
+1         2            2            1  2023-01-02        10  24278
+2         3            6            4  2023-01-03        17  39119
+3         4            6            4  2023-01-04         7  17835
+4         5            5            2  2023-01-05         7  49733
+5         6            6            4  2023-01-06        17   7426
+6         7            5            3  2023-01-07        16  10024
+7         8            7            3  2023-01-08         7  20807
+8         9            2            2  2023-01-09         2  43804
+
+Diagnóstico ventas.csv
+      Campo Completitud (%) Validez (%)  Duplicados
+   id_venta            100%        100%           0
+id_producto            100%        100%          90
+id_sucursal            100%        100%          95
+      fecha            100%        100%           0
+   cantidad            100%        100%          81
+      monto            100%        100%           0
+
+Duplicados de filas completas: 0
+
+Campo con más problemas: id_venta
+Dimensión afectada: Integridad/Unicidad de claves
+Impacto potencial: Ventas duplicadas o inválidas distorsionan todas las métrricas.
+Dataframe
+   id_cliente     nombre  edad    ubicacion  categoria
+0           1  Cliente 1    27   Valparaíso   Inactivo
+1           2  Cliente 2    65  Antofagasta   Inactivo
+2           3  Cliente 3    49   Concepción      Nuevo
+3           4  Cliente 4    36    La Serena  Frecuente
+4           5  Cliente 5    32   Valparaíso   Inactivo
+5           6  Cliente 6    68   Valparaíso  Frecuente
+6           7  Cliente 7    36     Santiago  Frecuente
+7           8  Cliente 8    67    La Serena      Nuevo
+8           9  Cliente 9    67   Concepción      Nuevo
+
+Resumen de calidad de datos:
+     Campo Completitud (%) Validez (%)  Duplicados
+    nombre            100%        100%           0
+id_cliente            100%        100%           0
+
+Campo con más problemas: nombre
+Dimensión de calidad más comprometida: Completitud/Consistencia
+Posibles consecuencias: Dificultad para personalizar comunicaciones y segmentar correctamente.
+
+Diagnóstico productos.csv
+          Campo Completitud (%) Validez (%)  Duplicados
+    id_producto            100%        100%           0
+nombre_producto            100%        100%           0
+      categoria            100%        100%           6
+      proveedor            100%        100%           7
+
+Duplicados de filas completas: 0
+
+Campo con más problemas: id_producto
+Dimensión afectada: Integridad/Unicidad de claves
+Impacto potencial: IDs inválidos o duplicados afectan joins y el DW.
+Dataframe
+   id_venta  id_producto  id_sucursal       fecha  cantidad    monto
+0         1            9            3  2023-01-01        12  22557.0
+1         2            2            1  2023-01-02        10  24278.0
+2         3            6            4  2023-01-03        17  39119.0
+3         4            6            4  2023-01-04         7  17835.0
+4         5            5            2  2023-01-05         7  49733.0
+5         6            6            4  2023-01-06        17   7426.0
+6         7            5            3  2023-01-07        16  10024.0
+7         8            7            3  2023-01-08         7  20807.0
+8         9            2            2  2023-01-09         2  43804.0
+
+Diagnóstico ventas.csv
+      Campo Completitud (%) Validez (%)  Duplicados
+   id_venta            100%        100%           0
+id_producto            100%        100%          90
+id_sucursal            100%        100%          95
+      fecha            100%        100%           0
+   cantidad            100%        100%          81
+      monto            100%        100%           0
+
+Duplicados de filas completas: 0
+
+Campo con más problemas: id_venta
+Dimensión afectada: Integridad/Unicidad de claves
+Impacto potencial: Ventas duplicadas o inválidas distorsionan todas las métrricas.
+Dataframe
+   id_cliente     nombre  edad    ubicacion  categoria
+0           1  Cliente 1    27   Valparaíso   Inactivo
+1           2  Cliente 2    65  Antofagasta   Inactivo
+2           3  Cliente 3    49   Concepción      Nuevo
+3           4  Cliente 4    36    La Serena  Frecuente
+4           5  Cliente 5    32   Valparaíso   Inactivo
+5           6  Cliente 6    68   Valparaíso  Frecuente
+6           7  Cliente 7    36     Santiago  Frecuente
+7           8  Cliente 8    67    La Serena      Nuevo
+8           9  Cliente 9    67   Concepción      Nuevo
+
+Resumen de calidad de datos:
+     Campo Completitud (%) Validez (%)  Duplicados
+    nombre            100%        100%           0
+id_cliente            100%        100%           0
+
+Campo con más problemas: nombre
+Dimensión de calidad más comprometida: Completitud/Consistencia
+Posibles consecuencias: Dificultad para personalizar comunicaciones y segmentar correctamente.
+
+Diagnóstico productos.csv
+          Campo Completitud (%) Validez (%)  Duplicados
+    id_producto            100%        100%           0
+nombre_producto            100%        100%           0
+      categoria            100%        100%           6
+      proveedor            100%        100%           7
+
+Duplicados de filas completas: 0
+
+Campo con más problemas: id_producto
+Dimensión afectada: Integridad/Unicidad de claves
+Impacto potencial: IDs inválidos o duplicados afectan joins y el DW.
+Dataframe
+   id_venta  id_producto  id_sucursal       fecha  cantidad  monto
+0         1            9            3  2023-01-01        12  22557
+1         2            2            1  2023-01-02        10  24278
+2         3            6            4  2023-01-03        17  39119
+3         4            6            4  2023-01-04         7  17835
+4         5            5            2  2023-01-05         7  49733
+5         6            6            4  2023-01-06        17   7426
+6         7            5            3  2023-01-07        16  10024
+7         8            7            3  2023-01-08         7  20807
+8         9            2            2  2023-01-09         2  43804
+
+Diagnóstico ventas.csv
+      Campo Completitud (%) Validez (%)  Duplicados
+   id_venta            100%        100%           0
+id_producto            100%        100%          90
+id_sucursal            100%        100%          95
+      fecha            100%        100%           0
+   cantidad            100%        100%          81
+      monto            100%        100%           0
+
+Duplicados de filas completas: 0
+
+Campo con más problemas: id_venta
+Dimensión afectada: Integridad/Unicidad de claves
+Impacto potencial: Ventas duplicadas o inválidas distorsionan todas las métrricas.
+Dataframe
+   id_cliente     nombre  edad    ubicacion  categoria
+0           1  Cliente 1    27   Valparaíso   Inactivo
+1           2  Cliente 2    65  Antofagasta   Inactivo
+2           3  Cliente 3    49   Concepción      Nuevo
+3           4  Cliente 4    36    La Serena  Frecuente
+4           5  Cliente 5    32   Valparaíso   Inactivo
+5           6  Cliente 6    68   Valparaíso  Frecuente
+6           7  Cliente 7    36     Santiago  Frecuente
+7           8  Cliente 8    67    La Serena      Nuevo
+8           9  Cliente 9    67   Concepción      Nuevo
+
+Resumen de calidad de datos:
+     Campo Completitud (%) Validez (%)  Duplicados
+    nombre            100%        100%           0
+id_cliente            100%        100%           0
+
+Campo con más problemas: nombre
+Dimensión de calidad más comprometida: Completitud/Consistencia
+Posibles consecuencias: Dificultad para personalizar comunicaciones y segmentar correctamente.
+
+Diagnóstico productos.csv
+          Campo Completitud (%) Validez (%)  Duplicados
+    id_producto            100%        100%           0
+nombre_producto            100%        100%           0
+      categoria            100%        100%           6
+      proveedor            100%        100%           7
+
+Duplicados de filas completas: 0
+
+Campo con más problemas: id_producto
+Dimensión afectada: Integridad/Unicidad de claves
+Impacto potencial: IDs inválidos o duplicados afectan joins y el DW.
+Dataframe
+   id_venta  id_producto  id_sucursal       fecha  cantidad    monto
+0         1            9            3  2023-01-01        12  22557.0
+1         2            2            1  2023-01-02        10  24278.0
+2         3            6            4  2023-01-03        17  39119.0
+3         4            6            4  2023-01-04         7  17835.0
+4         5            5            2  2023-01-05         7  49733.0
+5         6            6            4  2023-01-06        17   7426.0
+6         7            5            3  2023-01-07        16  10024.0
+7         8            7            3  2023-01-08         7  20807.0
+8         9            2            2  2023-01-09         2  43804.0
+
+Diagnóstico ventas.csv
+      Campo Completitud (%) Validez (%)  Duplicados
+   id_venta            100%        100%           0
+id_producto            100%        100%          90
+id_sucursal            100%        100%          95
+      fecha            100%        100%           0
+   cantidad            100%        100%          81
+      monto            100%        100%           0
+
+Duplicados de filas completas: 0
+
+Campo con más problemas: id_venta
+Dimensión afectada: Integridad/Unicidad de claves
+Impacto potencial: Ventas duplicadas o inválidas distorsionan todas las métrricas.
+Dataframe
+   id_cliente     nombre  edad    ubicacion  categoria
+0           1  Cliente 1    27   Valparaíso   Inactivo
+1           2  Cliente 2    65  Antofagasta   Inactivo
+2           3  Cliente 3    49   Concepción      Nuevo
+3           4  Cliente 4    36    La Serena  Frecuente
+4           5  Cliente 5    32   Valparaíso   Inactivo
+5           6  Cliente 6    68   Valparaíso  Frecuente
+6           7  Cliente 7    36     Santiago  Frecuente
+7           8  Cliente 8    67    La Serena      Nuevo
+8           9  Cliente 9    67   Concepción      Nuevo
+
+Resumen de calidad de datos:
+     Campo Completitud (%) Validez (%)  Duplicados
+    nombre            100%        100%           0
+id_cliente            100%        100%           0
+
+Campo con más problemas: nombre
+Dimensión de calidad más comprometida: Completitud/Consistencia
+Posibles consecuencias: Dificultad para personalizar comunicaciones y segmentar correctamente.
+
+Diagnóstico productos.csv
+          Campo Completitud (%) Validez (%)  Duplicados
+    id_producto            100%        100%           0
+nombre_producto            100%        100%           0
+      categoria            100%        100%           6
+      proveedor            100%        100%           7
+
+Duplicados de filas completas: 0
+
+Campo con más problemas: id_producto
+Dimensión afectada: Integridad/Unicidad de claves
+Impacto potencial: IDs inválidos o duplicados afectan joins y el DW.
+Dataframe
+   id_venta  id_producto  id_sucursal       fecha  cantidad  monto
+0         1            9            3  2023-01-01        12  22557
+1         2            2            1  2023-01-02        10  24278
+2         3            6            4  2023-01-03        17  39119
+3         4            6            4  2023-01-04         7  17835
+4         5            5            2  2023-01-05         7  49733
+5         6            6            4  2023-01-06        17   7426
+6         7            5            3  2023-01-07        16  10024
+7         8            7            3  2023-01-08         7  20807
+8         9            2            2  2023-01-09         2  43804
+
+Diagnóstico ventas.csv
+      Campo Completitud (%) Validez (%)  Duplicados
+   id_venta            100%        100%           0
+id_producto            100%        100%          90
+id_sucursal            100%        100%          95
+      fecha            100%        100%           0
+   cantidad            100%        100%          81
+      monto            100%        100%           0
+
+Duplicados de filas completas: 0
+
+Campo con más problemas: id_venta
+Dimensión afectada: Integridad/Unicidad de claves
+Impacto potencial: Ventas duplicadas o inválidas distorsionan todas las métrricas.
+Dataframe
+   id_cliente     nombre  edad    ubicacion  categoria
+0           1  Cliente 1    27   Valparaíso   Inactivo
+1           2  Cliente 2    65  Antofagasta   Inactivo
+2           3  Cliente 3    49   Concepción      Nuevo
+3           4  Cliente 4    36    La Serena  Frecuente
+4           5  Cliente 5    32   Valparaíso   Inactivo
+5           6  Cliente 6    68   Valparaíso  Frecuente
+6           7  Cliente 7    36     Santiago  Frecuente
+7           8  Cliente 8    67    La Serena      Nuevo
+8           9  Cliente 9    67   Concepción      Nuevo
+
+Resumen de calidad de datos:
+     Campo Completitud (%) Validez (%)  Duplicados
+    nombre            100%        100%           0
+id_cliente            100%        100%           0
+
+Campo con más problemas: nombre
+Dimensión de calidad más comprometida: Completitud/Consistencia
+Posibles consecuencias: Dificultad para personalizar comunicaciones y segmentar correctamente.
+
+Diagnóstico productos.csv
+          Campo Completitud (%) Validez (%)  Duplicados
+    id_producto            100%        100%           0
+nombre_producto            100%        100%           0
+      categoria            100%        100%           6
+      proveedor            100%        100%           7
+
+Duplicados de filas completas: 0
+
+Campo con más problemas: id_producto
+Dimensión afectada: Integridad/Unicidad de claves
+Impacto potencial: IDs inválidos o duplicados afectan joins y el DW.
+Dataframe
+   id_venta  id_producto  id_sucursal       fecha  cantidad    monto
+0         1            9            3  2023-01-01        12  22557.0
+1         2            2            1  2023-01-02        10  24278.0
+2         3            6            4  2023-01-03        17  39119.0
+3         4            6            4  2023-01-04         7  17835.0
+4         5            5            2  2023-01-05         7  49733.0
+5         6            6            4  2023-01-06        17   7426.0
+6         7            5            3  2023-01-07        16  10024.0
+7         8            7            3  2023-01-08         7  20807.0
+8         9            2            2  2023-01-09         2  43804.0
+
+Diagnóstico ventas.csv
+      Campo Completitud (%) Validez (%)  Duplicados
+   id_venta            100%        100%           0
+id_producto            100%        100%          90
+id_sucursal            100%        100%          95
+      fecha            100%        100%           0
+   cantidad            100%        100%          81
+      monto            100%        100%           0
+
+Duplicados de filas completas: 0
+
+Campo con más problemas: id_venta
+Dimensión afectada: Integridad/Unicidad de claves
+Impacto potencial: Ventas duplicadas o inválidas distorsionan todas las métrricas.
+Dataframe
+   id_cliente     nombre  edad    ubicacion  categoria
+0           1  Cliente 1    27   Valparaíso   Inactivo
+1           2  Cliente 2    65  Antofagasta   Inactivo
+2           3  Cliente 3    49   Concepción      Nuevo
+3           4  Cliente 4    36    La Serena  Frecuente
+4           5  Cliente 5    32   Valparaíso   Inactivo
+5           6  Cliente 6    68   Valparaíso  Frecuente
+6           7  Cliente 7    36     Santiago  Frecuente
+7           8  Cliente 8    67    La Serena      Nuevo
+8           9  Cliente 9    67   Concepción      Nuevo
+
+Resumen de calidad de datos:
+     Campo Completitud (%) Validez (%)  Duplicados
+    nombre            100%        100%           0
+id_cliente            100%        100%           0
+
+Campo con más problemas: nombre
+Dimensión de calidad más comprometida: Completitud/Consistencia
+Posibles consecuencias: Dificultad para personalizar comunicaciones y segmentar correctamente.
+
+Diagnóstico productos.csv
+          Campo Completitud (%) Validez (%)  Duplicados
+    id_producto            100%        100%           0
+nombre_producto            100%        100%           0
+      categoria            100%        100%           6
+      proveedor            100%        100%           7
+
+Duplicados de filas completas: 0
+
+Campo con más problemas: id_producto
+Dimensión afectada: Integridad/Unicidad de claves
+Impacto potencial: IDs inválidos o duplicados afectan joins y el DW.
+Dataframe
+   id_venta  id_producto  id_sucursal       fecha  cantidad  monto
+0         1            9            3  2023-01-01        12  22557
+1         2            2            1  2023-01-02        10  24278
+2         3            6            4  2023-01-03        17  39119
+3         4            6            4  2023-01-04         7  17835
+4         5            5            2  2023-01-05         7  49733
+5         6            6            4  2023-01-06        17   7426
+6         7            5            3  2023-01-07        16  10024
+7         8            7            3  2023-01-08         7  20807
+8         9            2            2  2023-01-09         2  43804
+
+Diagnóstico ventas.csv
+      Campo Completitud (%) Validez (%)  Duplicados
+   id_venta            100%        100%           0
+id_producto            100%        100%          90
+id_sucursal            100%        100%          95
+      fecha            100%        100%           0
+   cantidad            100%        100%          81
+      monto            100%        100%           0
+
+Duplicados de filas completas: 0
+
+Campo con más problemas: id_venta
+Dimensión afectada: Integridad/Unicidad de claves
+Impacto potencial: Ventas duplicadas o inválidas distorsionan todas las métrricas.
+Dataframe
+   id_cliente     nombre  edad    ubicacion  categoria
+0           1  Cliente 1    27   Valparaíso   Inactivo
+1           2  Cliente 2    65  Antofagasta   Inactivo
+2           3  Cliente 3    49   Concepción      Nuevo
+3           4  Cliente 4    36    La Serena  Frecuente
+4           5  Cliente 5    32   Valparaíso   Inactivo
+5           6  Cliente 6    68   Valparaíso  Frecuente
+6           7  Cliente 7    36     Santiago  Frecuente
+7           8  Cliente 8    67    La Serena      Nuevo
+8           9  Cliente 9    67   Concepción      Nuevo
+
+Resumen de calidad de datos:
+     Campo Completitud (%) Validez (%)  Duplicados
+    nombre            100%        100%           0
+id_cliente            100%        100%           0
+
+Campo con más problemas: nombre
+Dimensión de calidad más comprometida: Completitud/Consistencia
+Posibles consecuencias: Dificultad para personalizar comunicaciones y segmentar correctamente.
+
+Diagnóstico productos.csv
+          Campo Completitud (%) Validez (%)  Duplicados
+    id_producto            100%        100%           0
+nombre_producto            100%        100%           0
+      categoria            100%        100%           6
+      proveedor            100%        100%           7
+
+Duplicados de filas completas: 0
+
+Campo con más problemas: id_producto
+Dimensión afectada: Integridad/Unicidad de claves
+Impacto potencial: IDs inválidos o duplicados afectan joins y el DW.
+Dataframe
+   id_venta  id_producto  id_sucursal       fecha  cantidad    monto
+0         1            9            3  2023-01-01        12  22557.0
+1         2            2            1  2023-01-02        10  24278.0
+2         3            6            4  2023-01-03        17  39119.0
+3         4            6            4  2023-01-04         7  17835.0
+4         5            5            2  2023-01-05         7  49733.0
+5         6            6            4  2023-01-06        17   7426.0
+6         7            5            3  2023-01-07        16  10024.0
+7         8            7            3  2023-01-08         7  20807.0
+8         9            2            2  2023-01-09         2  43804.0
+
+Diagnóstico ventas.csv
+      Campo Completitud (%) Validez (%)  Duplicados
+   id_venta            100%        100%           0
+id_producto            100%        100%          90
+id_sucursal            100%        100%          95
+      fecha            100%        100%           0
+   cantidad            100%        100%          81
+      monto            100%        100%           0
+
+Duplicados de filas completas: 0
+
+Campo con más problemas: id_venta
+Dimensión afectada: Integridad/Unicidad de claves
+Impacto potencial: Ventas duplicadas o inválidas distorsionan todas las métrricas.
+Dataframe
+   id_cliente     nombre  edad    ubicacion  categoria
+0           1  Cliente 1    27   Valparaíso   Inactivo
+1           2  Cliente 2    65  Antofagasta   Inactivo
+2           3  Cliente 3    49   Concepción      Nuevo
+3           4  Cliente 4    36    La Serena  Frecuente
+4           5  Cliente 5    32   Valparaíso   Inactivo
+5           6  Cliente 6    68   Valparaíso  Frecuente
+6           7  Cliente 7    36     Santiago  Frecuente
+7           8  Cliente 8    67    La Serena      Nuevo
+8           9  Cliente 9    67   Concepción      Nuevo
+
+Resumen de calidad de datos:
+     Campo Completitud (%) Validez (%)  Duplicados
+    nombre            100%        100%           0
+id_cliente            100%        100%           0
+
+Campo con más problemas: nombre
+Dimensión de calidad más comprometida: Completitud/Consistencia
+Posibles consecuencias: Dificultad para personalizar comunicaciones y segmentar correctamente.
+
+Diagnóstico productos.csv
+          Campo Completitud (%) Validez (%)  Duplicados
+    id_producto            100%        100%           0
+nombre_producto            100%        100%           0
+      categoria            100%        100%           6
+      proveedor            100%        100%           7
+
+Duplicados de filas completas: 0
+
+Campo con más problemas: id_producto
+Dimensión afectada: Integridad/Unicidad de claves
+Impacto potencial: IDs inválidos o duplicados afectan joins y el DW.
